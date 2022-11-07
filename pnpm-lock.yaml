@@ -9,6 +9,7 @@ specifiers:
   eslint: ^8.16.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-svelte3: ^4.0.0
+  pocketbase: 0.8.0-rc2
   prettier: ^2.6.2
   prettier-plugin-svelte: ^2.7.0
   svelte: ^3.44.0
@@ -17,6 +18,9 @@ specifiers:
   tslib: ^2.3.1
   typescript: ^4.7.4
   vite: ^3.1.0
+
+dependencies:
+  pocketbase: 0.8.0-rc2
 
 devDependencies:
   '@playwright/test': 1.25.0
@@ -1593,6 +1597,10 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
     dev: true
+
+  /pocketbase/0.8.0-rc2:
+    resolution: {integrity: sha512-+MzpwKNZBnshwKS3sBtWIaH3Ru7oISTG33OS7OO5P7SFqdOMwlXVgCyGw2lNVY9Tw/uf7wtDoJpqskBWGp9f9g==}
+    dev: false
 
   /postcss/8.4.18:
     resolution: {integrity: sha512-Wi8mWhncLJm11GATDaQKobXSNEYGUHeQLiQqDFG1qQ5UTDPTEvKw0Xt5NsTpktGTwLps3ByrWsBrG0rB8YQ9oA==}
