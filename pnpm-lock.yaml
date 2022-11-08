@@ -14,6 +14,7 @@ specifiers:
   postcss: ^8.4.18
   prettier: ^2.6.2
   prettier-plugin-svelte: ^2.7.0
+  prettier-plugin-tailwindcss: ^0.1.13
   svelte: ^3.44.0
   svelte-check: ^2.7.1
   svelte-preprocess: ^4.10.6
@@ -38,6 +39,7 @@ devDependencies:
   postcss: 8.4.18
   prettier: 2.7.1
   prettier-plugin-svelte: 2.8.0_lrllcp5xtrkmmdzifit4hd52ze
+  prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   svelte: 3.52.0
   svelte-check: 2.9.2_vidagnlh55bt6yxji7dk5y5wla
   svelte-preprocess: 4.10.7_thgq75zisbcmm7d6lsbrpbdhti
@@ -1562,6 +1564,15 @@ packages:
     dependencies:
       prettier: 2.7.1
       svelte: 3.52.0
+    dev: true
+
+  /prettier-plugin-tailwindcss/0.1.13_prettier@2.7.1:
+    resolution: {integrity: sha512-/EKQURUrxLu66CMUg4+1LwGdxnz8of7IDvrSLqEtDqhLH61SAlNNUSr90UTvZaemujgl3OH/VHg+fyGltrNixw==}
+    engines: {node: '>=12.17.0'}
+    peerDependencies:
+      prettier: '>=2.2.0'
+    dependencies:
+      prettier: 2.7.1
     dev: true
 
   /prettier/2.7.1:
